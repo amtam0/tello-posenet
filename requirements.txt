@@ -1,0 +1,9 @@
+Pillow
+numpy
+wheel
+imutils
+pynput
+av
+opencv-python
+pygame
+tensorflow
