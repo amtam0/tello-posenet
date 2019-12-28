@@ -1,6 +1,18 @@
 # Posenet Installation
-python3 -m venv tellocv-env
 
+Requirements:
+- raspberry pi 3 (4 is best) (optional coral usb accelerator)
+- python 3.7
+
+Setuptools of Raspbian in Linux
+- cfdisk (repartition sd card)
+- etcher (flash drive)
+
+TODO : Create bash script that setup Everything
+
+pip3 install virtualenv
+
+python3 -m venv tellocv-env
 
 source tellocv-env/bin/activate
 
