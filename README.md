@@ -1,11 +1,21 @@
 # Posenet Installation
 python3 -m venv tellocv-env
+
+
 source tellocv-env/bin/activate
+
+bash get_pi_requirements.sh
+
+sudo apt-get install -y pkg-config libavformat-dev libavcodec-dev libavdevice-dev libavutil-dev libswscale-dev libavresample-dev libavfilter-de
+
 pip3 install -r requirements.txt
 
 git clone https://github.com/hanyazou/TelloPy
+
 cd TelloPy
+
 python3 setup.py bdist_wheel
+
 pip3 install dist/tellopy-*.dev*.whl --upgrade
 
 # Tellocv tracker
