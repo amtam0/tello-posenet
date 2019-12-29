@@ -20,6 +20,8 @@ bash get_pi_requirements.sh
 
 sudo apt-get install -y pkg-config libavformat-dev libavcodec-dev libavdevice-dev libavutil-dev libswscale-dev libavresample-dev libavfilter-de
 
+pip3 install --upgrade setuptools
+
 pip3 install -r requirements.txt
 
 git clone https://github.com/hanyazou/TelloPy
